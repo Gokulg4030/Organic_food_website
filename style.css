@@ -1,0 +1,277 @@
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    font-family: 'montserrat',sans-serif;
+}
+
+/* navbar */
+
+.nav-item a{
+    text-decoration: none;color: black;font-weight: 600;text-transform: uppercase;margin-right: 15px;transition:  all 0.4s ease;
+    font-family: 'montserrat',sans-serif;}
+.nav-item a:hover{
+    color: rgb(20, 219, 20);;
+}
+.navbar-brand{
+    height: 50px; width: 100px;
+}
+.search{
+    height: 45px;outline: none;border: 2px solid rgb(20, 219, 20);background-color: transparent;border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.search:focus{
+    outline: none;border: 2px solid rgb(20, 219, 20);box-shadow: none;border-right: none;
+}
+.btn1{
+    height: 45px;outline: none;border: none;background-color: rgb(20, 219, 20);border-radius: 0px 20px 20px 0px;transition:  all 0.4s ease;
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(14, 143, 16);
+}
+.cart{
+    font-size: 30px;color: black;cursor: pointer;padding-top: 5px;
+}
+.cart:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-toggler{
+    font-size: 23px;color: black;
+}
+.navbar-toggler:focus{
+    outline: none;box-shadow: none;color: rgb(20, 219, 20);
+}
+
+
+/* main section*/
+
+.main{
+    background:url(./images/m1.jpg)no-repeat;background-size: cover;height: 100vh;width: 100%;
+}
+.main h1{
+    font-size: 4.5rem;
+    font-family: "Righteous", cursive;
+}
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 80px;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.mbtn1{
+    height: 50px;width: 25%;outline: none;border: none;background-color: rgb(20, 219, 20);border-radius: 50px;transition: all 0.4s ease;
+    color: white;
+}
+.mbtn1:hover{
+    background-color: rgb(14, 143, 16);
+}
+.mbtn2{
+    height: 50px;width: 25%;outline: none;border: 1px solid rgb(20, 219, 20); border-radius: 50px;transition: all 0.4s ease;
+    color: rgb(20, 219, 20);background-color: transparent;
+}
+.mbtn2:hover{
+    background-color: rgb(20, 219, 20);color: white;border: none
+}
+
+.line{
+    height: 6px;width: 30%;background-color: rgb(20, 219, 20);display: inline-block;
+}
+
+/* About section */
+
+.about{
+    background: url(images/abut.jpg)no-repeat; background-size: cover;height: 80vh;width: 100%;
+}
+.about h1{
+    font-size: 3.6rem;
+    font-family: "Righteous", cursive;
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+
+
+/* welcome section */
+.welcome{
+    background: rgb(20, 219, 20);
+}
+.line1{
+    height: 6px;width: 30%;background-color: white;display: inline-block;
+}
+
+.welcome h1{
+    font-size: 3rem;font-weight: bold;
+}
+.welcome .card{
+    border: none;border-radius: 0;cursor: pointer;
+}
+.welcome h2{
+    font-weight: lighter;
+}
+.welcome i{
+    font-size: 40px;color: rgb(20, 219, 20);
+}
+
+/* product section */
+
+.product h1{
+    font-size: 3.6rem;
+    font-family: "Righteous", cursive;
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.star{
+    text-align: end;color: orange
+}
+.product .card-body{
+    border: 1px dashed gray;
+}
+.product .card{
+    border: none;cursor: pointer;
+}
+
+.head{
+    font-weight: 400;margin: 0;
+}
+.quantity{
+    color: gray;
+}
+.pbtn{
+    height: 50px;width: 50%;outline: none;border: none;background-color: rgb(20, 219, 20);border-radius: 50px;transition: all 0.4s ease;
+    color: white;margin: 0 auto;display: block;
+}
+.pbtn:hover{
+    outline: none;border: 1px solid rgb(20, 219, 20); border-radius: 50px;transition: all 0.4s ease;
+    color: rgb(20, 219, 20);background-color: transparent;
+}
+
+
+/* discount section */
+
+.discount{
+    background: rgb(20, 219, 20);color: white;
+}
+.dbtn{
+    height: 50px;width: 75%;border: none;outline: none;color: black;background-color: white;border-radius: 50px;margin: 0 auto;
+    display: block;font-weight: lighter;transition: all 0.4s ease;
+}
+.dbtn:hover{
+    background-color: rgb(238, 228, 228);
+}
+
+
+/* store section */
+
+.store h1{
+    font-size: 3.6rem;
+    font-family: "Righteous", cursive;
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.store i{
+    font-size: 40px;
+}
+.store .card{
+    border: none; transition: all 0.4s ease;cursor: pointer;background-color: rgb(20, 219, 20);color: white;
+}
+.store .card:hover{
+    background-color:white; transition: 0.4s all ease;color: rgb(20, 219, 20);
+}
+
+/* new arrivals */
+
+.new-arrivals h1{
+font-size: 3.5rem; font-weight: bold;  font-family: "Righteous", cursive;
+}
+.new-arrivals .card{
+    cursor: pointer;
+}
+.new-arrivals .card :hover{
+    background-color: rgb(216, 208, 208)
+}
+.new-arrivals p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+.new-arrivals p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.new-arrivals i{
+    text-align: end;color: orange
+}
+
+/* contact section */
+
+.contact{
+    background:url(images/cont.jpg);background-size: cover;width: 100%;
+}
+.contact h1{
+    font-size: 3rem; font-family: "Righteous", cursive; color: white;font-weight: bold;
+}
+.contact p{
+    color: white;
+}
+.contact .circle{
+    height: 60px;width: 60px;background-color: white;border-radius: 50%; color: black;text-align: center;padding-top: 13px;
+    font-size: 20px;
+}
+.contact input{
+     height: 40px;width: 100%;border: none;outline: none;margin-top: 10px;padding: 10px;
+ }
+ .contact textarea{
+    height: 100px;width: 100%;border: none;outline: none;margin-top: 10px;padding: 10px;  
+ }
+
+ .contact .cbtn{
+    height: 50px;width: 65%;border: none;outline: none;background-color: white;border-radius: 50px;transition: 0.4 all ease;
+ }
+ .cbtn:hover{
+    background-color: gray;
+ }
+
+ /* footer scetion */
+
+ .footer{
+    background:rgb(61, 58, 58);
+ }
+ .icons{
+    height: 40px;width: 40px;background-color: transparent;border: 1px solid white;color: white;border-radius: 50%;display: inline-block;
+    text-align: center;margin-left: 10px;padding-top: 8px;cursor: pointer;
+ }
+ .footer p{
+    color: rgb(20, 219, 20);font-size: 15px;font-weight: 600;
+ }
+ .icons:hover{
+    background-color: rgb(20, 219, 20);
+ }
